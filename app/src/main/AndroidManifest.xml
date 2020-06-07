@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kotlinproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DabeliActivity"
+            android:label="Famous Dabeli">
+        </activity>
+        <activity
+            android:name=".PavBhajiActivity"
+            android:label="Famous Pav Bhaji">
+        </activity>
+        <activity
+            android:name=".KadiKachoriActivity"
+            android:label="Famous Kadi Kachori">
+        </activity>
+        <activity
+            android:name=".KhamanActivity"
+            android:label="Famous Khaman">
+        </activity>
+        <activity
+            android:name=".CholebhaturaActivity"
+            android:label="Famous Chole Bhatura">
+        </activity>
+        <activity
+            android:name=".VadaPavActivity"
+            android:label="Famous Vada Pav">
+        </activity>
+
+    </application>
+
+</manifest>
